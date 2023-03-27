@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<!--
+   Web Site Project
+   2022-10-22
+   Author: Heping Song	       
+   Date:2022-10-20             
+
+   Filename: mainpage.htm
+   Supporting files: greenbar.jpg, holiday.jpg, salogo.jpg, sunny.css
+-->
+   <link href="create_accountd.css" rel="stylesheet" type="text/css">
+   <title>Create Account</title>
+        <div class="header-top-massege" id="header">
+           <p>&nbsp;&nbsp;&nbsp;&nbsp;Default Welcome Message </p>
+        </div>
+
+        <div class="header-menu" id="headmenu" align="right">
+		<a href="login.html">
+          <image src="account.png" alt="my account" id="account">Account
+		</a>
+        <a href="help.html">
+          <image src="qa.jpg" alt="my account" id="qa">Help
+		</a> 		
+        </div>
+		
+    <h1><img src="logo.jpg" alt="Pottery Life" id="logo" /></h1>	
+    <div id="links" align="center">
+      <a href="home.html"><b>Home</b></a>
+      <a href="tableware.html"><b>Tableware</b></a>
+	  <a href="craftman.html"><b>Craftsman</b></a>
+      <a href="aboutus.html"><b>About Us</b></a>
+	  <a href="contactus.html"><b>Contact Us</b></a>
+    </div>
+
+		
+</head>
+
+<body>
+   <!--specific start-->
+    <div id="withoutAcc">
+	<p><b>Create Account</b></p>
+    <p>Enter a name, email, and password to create an account:</p>
+    </div>
+	
+<form name="createaccount" id="createaccount" action="RegisterScript.php">
+    <div id="info">
+	    <label class="labelblock">
+	        <input type="text" id="firstname" value="First Name"/>
+	    </label>
+	    <label class="labelblock">
+	        <input type="text" id="lastname" value="Last Name"/>
+	    </label>
+	    <label class="labelblock">
+	        <input type="text" id="email" value="Your Email"/>
+	    </label>
+	    <label class="labelblock">
+	        <input type="text" id="password" value="Type password here"/>
+	    </label>
+	    <label class="labelblock">
+	        <input type="text" id="confirmpass" value="Type and confrim your password"/>
+	    </label>
+		<input type="submit" id="loginbutton" value="Create Account" />
+    </div>
+</form>	
+    <!--specific end-->
+
+   <address>
+      三宅陶器株式会社 &nbsp;&#9728;&nbsp;
+      509-5171 &nbsp;&#9728;&nbsp; 岐阜県土岐市泉北山町8-1 &nbsp;&#9728;&nbsp;
+      TEL: 0572-55-1251 &nbsp;&#9728;&nbsp;
+      FAX: 0572-55-3140 &nbsp;&nbsp;
+   </address>
+
+</body>
+
+</html>

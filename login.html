@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<!--
+   Web Site Project
+   2022-10-22
+   Author: Heping Song	       
+   Date:2022-10-20             
+
+   Filename: mainpage.htm
+   Supporting files: greenbar.jpg, holiday.jpg, salogo.jpg, sunny.css
+-->
+   <link href="logind.css" rel="stylesheet" type="text/css">
+   <title>Login</title>
+        <div class="header-top-massege" id="header">
+           <p>&nbsp;&nbsp;&nbsp;&nbsp;Default Welcome Message </p>
+        </div>
+
+        <div class="header-menu" id="headmenu" align="right">
+		<a href="login.html">
+          <image src="account.png" alt="my account" id="account">Account
+		</a>
+        <a href="help.html">
+          <image src="qa.jpg" alt="my account" id="qa">Help
+		</a> 		
+        </div>
+		
+    <h1><img src="logo.jpg" alt="Pottery Life" id="logo" /></h1>	
+    <div id="links" align="center">
+      <a href="home.html"><b>Home</b></a>
+      <a href="tableware.html"><b>Tableware</b></a>
+	  <a href="craftman.html"><b>Craftsman</b></a>
+      <a href="aboutus.html"><b>About Us</b></a>
+	  <a href="contactus.html"><b>Contact Us</b></a>
+    </div>
+
+		
+</head>
+
+<body>
+   <!--specific start-->
+    <div id="withAcc">
+	<p><b>Login</b></p>
+    <p>Please enter your e-mail and password:</p>
+    </div>
+	
+<form name="login" id="login" action="RegisterScript.php">
+    <div id="info">
+	    <label class="labelblock">
+	        <input type="text" id="email" value="Email"/>
+	    </label>
+	    <label class="labelblock">
+	        <input type="text" id="password" value="Password"/>
+	    </label>
+		<input type="submit" id="loginbutton" value="LOGIN" />
+    </div>
+</form>	
+
+	<div id="withoutAcc">
+    <p>Dont't have an account? <a href="create_account.html" id= "create"><b>Create one</b></a></p>
+    </div>
+    <!--specific end-->
+
+   <address>
+      三宅陶器株式会社 &nbsp;&#9728;&nbsp;
+      509-5171 &nbsp;&#9728;&nbsp; 岐阜県土岐市泉北山町8-1 &nbsp;&#9728;&nbsp;
+      TEL: 0572-55-1251 &nbsp;&#9728;&nbsp;
+      FAX: 0572-55-3140 &nbsp;&nbsp;
+   </address>
+    </div>
+</body>
+
+</html>

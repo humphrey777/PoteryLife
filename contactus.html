@@ -1,0 +1,88 @@
+<html>
+
+<head>
+<!--
+   Web Site Project
+   2022-10-22
+   Author: Heping Song	       
+   Date:2022-10-20             
+
+   Filename: 
+   Supporting files: greenbar.jpg, holiday.jpg, salogo.jpg, sunny.css
+-->
+   <link href="contactusd.css" rel="stylesheet" type="text/css">
+   <title>Contact Us</title>
+        <div class="header-top-massege" id="header">
+           <p>&nbsp;&nbsp;&nbsp;&nbsp;Default Welcome Message </p>
+        </div>
+
+        <div class="header-menu" id="headmenu" align="right">
+		<a href="login.html">
+          <image src="account.png" alt="my account" id="account">Account
+		</a>
+        <a href="help.html">
+          <image src="qa.jpg" alt="my account" id="qa">Help
+		</a> 		
+        </div>
+		
+    <h1><img src="logo.jpg" alt="Pottery Life" id="logo" /></h1>	
+    <div id="links" align="center">
+      <a href="home.html"><b>Home</b></a>
+      <a href="tableware.html"><b>Tableware</b></a>
+	  <a href="craftman.html"><b>Craftsman</b></a>
+      <a href="aboutus.html"><b>About Us</b></a>
+	  <a href="contactus.html"><b>Contact Us</b></a>
+    </div>
+
+
+</head>
+
+<body>
+   
+    <div id="about">
+	<p><b>We are more than happy to talk to you! Feel free to call or email us!</b></p>
+    <p>Sometimes it's really tough to do business smoothly with overseas companies, but we have tons of experience and know how to make the process without  struggle for you. We welcome wholesaler, hotels & restaurants, retail store, and professional chefs.</p>
+    <p>8-1 Izumi Kitayama, Toki, Gifu 509-5171 JAPAN</p>
+	<p>+81-572-551251</p>
+	<p>M-F: 9am - 5pm</p>
+    </div>
+	
+<form name="contactus" id="contactus" action="RegisterScript.php">
+    <div id="contact">
+	    <label class="labelblock"><span>*</span> 
+	        <input type="text" id="name" value="Your Name"/>
+	    </label>
+	    <label class="labelblock"><span>*</span> 
+	        <input type="text" id="email" value="Your Email"/>
+	    </label>
+		<select name="addressType" id="country">
+				    <option value="Japan">Japan</option>
+					<option value="USA">USA</option>
+					<option value="Canada">Canada</option>
+		</select>	
+		<label class="labelblock">
+	        <input type="text" id="phone" value="Your Phone"/>
+	    </label>
+	    <label class="labelblock"> 
+			<textarea name="comment" id="comment" rows="5" cols="50">
+			Your Message
+			</textarea>
+	    </label>
+		<input type="submit" id="message" value="Send Message" />
+		<input type="reset" id="cancel" value="Cancel" value="Cancel"/>	
+    </div>
+</form>	
+
+	
+
+
+   <address>
+      三宅陶器株式会社 &nbsp;&#9728;&nbsp;
+      509-5171 &nbsp;&#9728;&nbsp; 岐阜県土岐市泉北山町8-1 &nbsp;&#9728;&nbsp;
+      TEL: 0572-55-1251 &nbsp;&#9728;&nbsp;
+      FAX: 0572-55-3140 &nbsp;&nbsp;
+   </address>
+    </div>
+</body>
+
+</html>

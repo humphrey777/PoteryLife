@@ -1,0 +1,93 @@
+/*
+   Project Style Sheet
+   Author: Heping Song
+   Date: 2022-10-24   
+
+   Filename:         ecommerce.css
+   Supporting Files: 
+
+*/
+body{margin: 0px;
+	background-color: white; font-family: Arial, Hevetica, sans-serif;
+	background-image:url("greybar.jpg")}
+	
+h1 {margin:0px;
+    border: none;
+	color: white;
+    }
+   
+h2{color: white; background-color: grey; font-family: Arial,Helvetica,Sans-serif;
+   letter-spacing: 7px;
+   padding-left:5;
+   text-align:center}
+   
+h3{width: 200px;color: white; background-color: grey; font-family: Arial,Helvetica,Sans-serif;
+   letter-spacing: 7px;
+   padding-left:5}
+
+address{font-size: 10.67px; color: grey; font-style: normal;
+	    text-align: center;
+		padding-top: 5px;
+		border-top: 3px solid grey;
+       }
+
+#header {background-color:#CA7A27; color:white}
+
+#logo  {width: 250px; height: 250px; margin-left: 5px; margin-right: 5px; margin-top:5px; margin-bottom:5px;
+       display: block; clear: both; margin-left: auto; margin-right: auto}
+
+#top  {display: block; margin-left: auto; margin-right: auto; padding-top: 20px; padding-bottom: 20px}	   
+	
+#photobox {float:right; 
+           width: 260px; height: 270px;
+           font-size: 0.8em; color: black;
+		   font-family:"Times New Roman", Times, serif;
+		   font-style: italic;
+	       text-align: center;
+           background-color: rgb(255,215,71);
+           margin-top:10px; margin-bottom:10px;margin-left:10px;margin-right:0px;
+		   border-top: 1px solid black;border-left: 1px solid black;
+		   border-bottom: 4px solid black;border-right: 4px solid black}	
+	       	   		
+
+#links {display:block; margin-left:auto; margin-right: auto; padding-bottom: 10px;border-bottom: 2px solid grey}
+
+#links a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255,255,255); width: 180px; margin:5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 0px;
+ }
+
+#links a:hover {color:#CA7A27}
+
+#headmenu {display:block;float:right; margin-right:40px}
+#headmenu a {text-decoration: none;color: black}
+#headmenu a:hover {color:#CA7A27}
+#account {width:30px;height:30px; margin-left: 10px; margin-right:5px}
+#qa {width:30px;height:30px; margin-left: 10px; margin-right:5px}
+
+#Shipping {text-align: center; margin-left: auto; margin-right: auto; width: 600px }
+
+#Shipping p {text-align: left}
+#Shipping h4 {text-align: left}
+#Shipping li {text-align: left}
+
+#canp, #puro {display: block}
+
+
+#cost {width: 500px}
+#cost td, #cost th {
+  padding: 8px;
+}
+
+#cost tr{background-color: #f2f2f2;}
+
+#cost tr:hover {background-color: #ddd;}
+
+#cost th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #904840;
+  color:white
+}

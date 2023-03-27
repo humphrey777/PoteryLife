@@ -1,0 +1,82 @@
+/*
+   Project Style Sheet
+   Author: Heping Song
+   Date: 2022-10-24   
+
+   Filename:         ecommerce.css
+   Supporting Files: 
+
+*/
+body{margin: 0px;
+	background-color: white; font-family: Arial, Hevetica, sans-serif;
+	background-image:url("greybar.jpg")}
+	
+h1 {margin:0px;
+    border: none;
+	color: white;
+    }
+   
+h2{color: white; background-color: grey; font-family: Arial,Helvetica,Sans-serif;
+   letter-spacing: 7px;
+   padding-left:5;
+   text-align:center}
+   
+h3{width: 200px;color: white; background-color: grey; font-family: Arial,Helvetica,Sans-serif;
+   letter-spacing: 7px;
+   padding-left:5}
+
+address{font-size: 10.67px; color: grey; font-style: normal;
+	    text-align: center;
+		padding-top: 5px;
+		border-top: 3px solid grey;
+       }
+
+#header {background-color:#CA7A27; color:white}
+
+#logo  {width: 250px; height: 250px; margin-left: 5px; margin-right: 5px; margin-top:5px; margin-bottom:5px;
+       display: block; clear: both; margin-left: auto; margin-right: auto}
+
+#top  {display: block; margin-left: auto; margin-right: auto; padding-top: 20px; padding-bottom: 20px}	   
+	
+#photobox {float:right; 
+           width: 260px; height: 270px;
+           font-size: 0.8em; color: black;
+		   font-family:"Times New Roman", Times, serif;
+		   font-style: italic;
+	       text-align: center;
+           background-color: rgb(255,215,71);
+           margin-top:10px; margin-bottom:10px;margin-left:10px;margin-right:0px;
+		   border-top: 1px solid black;border-left: 1px solid black;
+		   border-bottom: 4px solid black;border-right: 4px solid black}	
+	       	   		
+
+#links {display:block; margin-left:auto; margin-right: auto; padding-bottom: 10px;border-bottom: 2px solid grey}
+
+#links a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255,255,255); width: 180px; margin:5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 0px;
+ }
+
+#links a:hover {color:#CA7A27}
+
+#headmenu {display:block;float:right; margin-right:40px}
+#headmenu a {text-decoration: none;color: black}
+#headmenu a:hover {color:#CA7A27}
+#account {width:30px;height:30px; margin-left: 10px; margin-right:5px}
+#qa {width:30px;height:30px; margin-left: 10px; margin-right:5px}
+
+
+#path {color: grey; margin-left: 50px; margin-right: 50px}
+
+#img {text-align:center; margin-left: auto; margin-right: auto; padding-top: 10px; padding-bottom: 10px}
+
+#img img{display:inline-block; width:300px;height:300px;margin:3px}
+
+#about {text-align: center; margin-left: auto; margin-right: auto; width: 600px }
+
+#about p {text-align: left}
+
+#photo {display:block; margin-left: auto; margin-right: auto; margin-top:10px; margin-bottom: 10px}
+
+#about b {color: #CA7A27}

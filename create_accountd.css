@@ -1,0 +1,93 @@
+/*
+   Project Style Sheet
+   Author: Heping Song
+   Date: 2022-10-24   
+
+   Filename:         ecommerce.css
+   Supporting Files: 
+
+*/
+body{margin: 0px;
+	background-color: white; font-family: Arial, Hevetica, sans-serif;
+	background-image:url("greybar.jpg")}
+	
+h1 {margin:0px;
+    border: none;
+	color: white;
+    }
+   
+h2{color: white; background-color: grey; font-family: Arial,Helvetica,Sans-serif;
+   letter-spacing: 7px;
+   padding-left:5;
+   text-align:center}
+   
+h3{width: 200px;color: white; background-color: grey; font-family: Arial,Helvetica,Sans-serif;
+   letter-spacing: 7px;
+   padding-left:5}
+
+address{font-size: 10.67px; color: grey; font-style: normal;
+	    text-align: center;
+		padding-top: 5px;
+		border-top: 3px solid grey;
+       }
+
+#header {background-color:#CA7A27; color:white}
+
+#logo  {width: 250px; height: 250px; margin-left: 5px; margin-right: 5px; margin-top:5px; margin-bottom:5px;
+       display: block; clear: both; margin-left: auto; margin-right: auto}
+
+#top  {display: block; margin-left: auto; margin-right: auto; padding-top: 20px; padding-bottom: 20px}	   
+	
+#photobox {float:right; 
+           width: 260px; height: 270px;
+           font-size: 0.8em; color: black;
+		   font-family:"Times New Roman", Times, serif;
+		   font-style: italic;
+	       text-align: center;
+           background-color: rgb(255,215,71);
+           margin-top:10px; margin-bottom:10px;margin-left:10px;margin-right:0px;
+		   border-top: 1px solid black;border-left: 1px solid black;
+		   border-bottom: 4px solid black;border-right: 4px solid black}		       	   		
+
+#links {display:block; margin-left:auto; margin-right: auto; padding-bottom: 10px;border-bottom: 2px solid grey}
+
+#links a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255,255,255); width: 180px; margin:5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 0px;
+ }
+
+#links a:hover {color:#CA7A27}
+
+#imglist1 {text-align:center; margin-left: auto; margin-right: auto; padding-top: 10px; padding-bottom: 10px}
+
+#imglist1 img{display:inline-block; width:300px;height:300px;margin:3px}
+
+#imglist2 {text-align:center; margin-left: auto; margin-right: auto; padding-top: 10px; padding-bottom: 10px}
+
+#imglist2 img{display:inline-block; width:300px;height:300px;margin:3px}
+
+#imglist3 {text-align:center; margin-left: auto; margin-right: auto; padding-top: 10px; padding-bottom: 10px}
+
+#imglist3 img{display:inline-block; width:300px;height:300px;margin:3px}
+
+
+#headmenu {display:block;float:right; margin-right:40px}
+#headmenu a {text-decoration: none;color: black}
+#headmenu a:hover {color:#CA7A27}
+#account {width:30px;height:30px; margin-left: 10px; margin-right:5px}
+#qa {width:30px;height:30px; margin-left: 10px; margin-right:5px}
+
+/*specific start*/
+#withoutAcc, #info {text-align:center}
+
+#createaccount {display:block; margin-left:auto; margin-right:auto;}
+
+#loginbutton {display:block;margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px; width: 250px; height: 30px; 
+              border-style: groove; border-width: 1.5px; border-color: #EEEDE7}
+			  
+#firstname, #lastname, #password, #confirmpass, #email {display:block;margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:5px; width: 300px; color:                                                   grey;height: 30px; border-style: groove; border-width: 1.5px; border-color: #EEEDE7}
+				  
+#loginbutton:hover {background-color: #CA7A27;color: white}	
+
+/*specific end*/				  
